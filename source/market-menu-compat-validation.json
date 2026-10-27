@@ -1,8 +1,8 @@
 {
   "before_sha1": "e711d7620ba1c0b3e549db1f707604e44af9f2e8",
-  "sha1": "a2aaba5531760815cf9b285ab8ee067202ecb978",
+  "sha1": "5b6f9d0320f4e66b6a6b6561c18a952555c1cf15",
   "before_bytes": 12278454,
-  "bytes": 12334445,
+  "bytes": 12335011,
   "added_files": [
     "assets/izerick/models/market/ah/available_slot.json",
     "assets/izerick/models/market/ah/cata_expired.json",
@@ -38,6 +38,7 @@
     "assets/prism_skyblock/textures/interface/gui_textures/trade/waiting.png"
   ],
   "changed_files": [
+    "assets/minecraft/atlases/blocks.json",
     "assets/minecraft/items/barrier.json",
     "assets/minecraft/items/book.json",
     "assets/minecraft/models/item/barrier.json",
@@ -46,7 +47,10 @@
     "network_format_32/assets/minecraft/items/book.json",
     "network_format_35/assets/minecraft/items/book.json",
     "network_format_42/assets/minecraft/items/book.json",
-    "network_format_56/assets/minecraft/items/book.json"
+    "network_format_56/assets/minecraft/items/book.json",
+    "network_format_75/assets/minecraft/atlases/blocks.json",
+    "network_format_84/assets/minecraft/atlases/blocks.json",
+    "network_renderpearl_97/assets/minecraft/atlases/blocks.json"
   ],
   "restored_book_controls": {
     "59": "trade/accepted",
@@ -68,5 +72,11 @@
   "all_shaders_heads_fonts_unchanged": true,
   "modern_definitions_verified": true,
   "legacy_overrides_verified": true,
+  "all_effective_atlases_verified": [
+    "assets/minecraft/atlases/blocks.json",
+    "network_format_75/assets/minecraft/atlases/blocks.json",
+    "network_format_84/assets/minecraft/atlases/blocks.json",
+    "network_renderpearl_97/assets/minecraft/atlases/blocks.json"
+  ],
   "visual_verified": false
 }

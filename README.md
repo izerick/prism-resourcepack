@@ -8,7 +8,7 @@ Global resource pack for the IzeCraft Lobby and Survival servers.
 - Filter duplicate sprite registrations and add particle texture aliases to affected models in that overlay.
 - Preserve the effective assets of the previous pack for formats 22 through 96, including Minecraft 1.21.8.
 
-Current ZIP SHA-1: `a2aaba5531760815cf9b285ab8ee067202ecb978`.
+Current ZIP SHA-1: `5b6f9d0320f4e66b6a6b6561c18a952555c1cf15`.
 
 This pack is delivered globally by the network proxy. Backend resource-pack auto-dispatch is disabled so switching game modes can retain the already loaded pack.
 
@@ -42,4 +42,7 @@ Disable the retired ItemsAdder emote UV remapper in the format-97 entity vertex 
 
 Trade and PlayerAuctions retained the Skyblock menu configuration, so their UI controls are shared resources needed by Survival. Restore only the 15 trade/auction book controls and their original small textures, with clean model declarations that reference the actual texture paths. Restore the invisible BARRIER/1 menu hit target. All modern book definitions include low-CMD controls without replacing their 50000+ Oraxen branches; legacy overrides are restored too.
 
-The ZIP grows by 55,991 bytes to 12,334,445 bytes. Shaders, player-head transformations, font providers, world models and body effects remain byte-identical. No boss, world or paused-mode plugin is enabled. The backend menu update also removes the nonexistent `custom:avatar` item model, uses recovered confirmation icons, makes money/XP controls explicit and translates the main menu text. See `source/market-menu-compat-validation.json`. In-client menu confirmation remains separate from structural validation.
+The ZIP grows by 56,557 bytes to 12,335,011 bytes. Shaders, player-head transformations, font providers, world models and body effects remain byte-identical. No boss, world or paused-mode plugin is enabled. The backend menu update also removes the nonexistent `custom:avatar` item model, uses recovered confirmation icons, makes money/XP controls explicit and translates the main menu text. See `source/market-menu-compat-validation.json`. In-client menu confirmation remains separate from structural validation.
+
+The recovered sprites are registered explicitly in all four effective block atlases, including the format-97 override, so modern clients can resolve them when baking the GUI models.
+
