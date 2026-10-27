@@ -1,0 +1,190 @@
+{
+  "before_sha1": "1478c523c56baf1ed2ee760cba55120b78da9b6c",
+  "sha1": "652b8570805715ac9b74b9f053f46422ca821677",
+  "bytes": 12354323,
+  "added_bytes": 17670,
+  "changed_files": [
+    "assets/minecraft/atlases/blocks.json",
+    "assets/minecraft/items/bone.json",
+    "assets/minecraft/items/book.json",
+    "assets/minecraft/models/item/bone.json",
+    "assets/minecraft/models/item/book.json",
+    "network_format_22/assets/minecraft/items/book.json",
+    "network_format_32/assets/minecraft/items/book.json",
+    "network_format_35/assets/minecraft/items/book.json",
+    "network_format_42/assets/minecraft/items/book.json",
+    "network_format_56/assets/minecraft/items/book.json",
+    "network_format_75/assets/minecraft/atlases/blocks.json",
+    "network_format_84/assets/minecraft/atlases/blocks.json",
+    "network_renderpearl_97/assets/minecraft/atlases/blocks.json"
+  ],
+  "added_files": [
+    "assets/izerick/models/skills/button_ability.json",
+    "assets/izerick/models/skills/button_ability_locked.json",
+    "assets/izerick/models/skills/button_ability_unlocked.json",
+    "assets/izerick/models/skills/button_back.json",
+    "assets/izerick/models/skills/button_nextpage.json",
+    "assets/izerick/models/skills/button_previouspage.json",
+    "assets/izerick/models/skills/button_rank.json",
+    "assets/izerick/models/skills/button_sort.json",
+    "assets/izerick/models/skills/button_xp.json",
+    "assets/izerick/models/skills/level_current.json",
+    "assets/izerick/models/skills/level_locked.json",
+    "assets/izerick/models/skills/level_unlocked.json",
+    "assets/izerick/models/skills/skill_alchemy.json",
+    "assets/izerick/models/skills/skill_archery.json",
+    "assets/izerick/models/skills/skill_defense.json",
+    "assets/izerick/models/skills/skill_enchant.json",
+    "assets/izerick/models/skills/skill_farming.json",
+    "assets/izerick/models/skills/skill_fighting.json",
+    "assets/izerick/models/skills/skill_fishing.json",
+    "assets/izerick/models/skills/skill_foraging.json",
+    "assets/izerick/models/skills/skill_mining.json",
+    "assets/izerick/models/skills/vanilla_bone.json",
+    "assets/izerick/models/skills/vanilla_book.json",
+    "assets/prism_skyblock/textures/interface/gui_textures/skills/back.png",
+    "assets/prism_skyblock/textures/interface/gui_textures/skills/button_ability.png",
+    "assets/prism_skyblock/textures/interface/gui_textures/skills/button_ability_locked.png",
+    "assets/prism_skyblock/textures/interface/gui_textures/skills/button_ability_unlocked.png",
+    "assets/prism_skyblock/textures/interface/gui_textures/skills/button_rank.png",
+    "assets/prism_skyblock/textures/interface/gui_textures/skills/button_sort.png",
+    "assets/prism_skyblock/textures/interface/gui_textures/skills/button_xp.png",
+    "assets/prism_skyblock/textures/interface/gui_textures/skills/level_current.png",
+    "assets/prism_skyblock/textures/interface/gui_textures/skills/level_locked.png",
+    "assets/prism_skyblock/textures/interface/gui_textures/skills/level_unlocked.png",
+    "assets/prism_skyblock/textures/interface/gui_textures/skills/next_page.png",
+    "assets/prism_skyblock/textures/interface/gui_textures/skills/previous_page.png",
+    "assets/prism_skyblock/textures/interface/gui_textures/skills/skill_alchemy.png",
+    "assets/prism_skyblock/textures/interface/gui_textures/skills/skill_archery.png",
+    "assets/prism_skyblock/textures/interface/gui_textures/skills/skill_defense.png",
+    "assets/prism_skyblock/textures/interface/gui_textures/skills/skill_enchant.png",
+    "assets/prism_skyblock/textures/interface/gui_textures/skills/skill_farming.png",
+    "assets/prism_skyblock/textures/interface/gui_textures/skills/skill_fighting.png",
+    "assets/prism_skyblock/textures/interface/gui_textures/skills/skill_fishing.png",
+    "assets/prism_skyblock/textures/interface/gui_textures/skills/skill_foraging.png",
+    "assets/prism_skyblock/textures/interface/gui_textures/skills/skill_mining.png"
+  ],
+  "menus": [
+    "skills.yml",
+    "level_progression.yml",
+    "abilities.yml",
+    "sources.yml",
+    "leaderboard.yml"
+  ],
+  "repaired_component_references": [
+    [
+      "skills",
+      "Progreso",
+      "progress"
+    ],
+    [
+      "skills",
+      "max level",
+      "max_level"
+    ],
+    [
+      "skills",
+      "habilidad job active",
+      "skill_job_active"
+    ],
+    [
+      "level_progression",
+      "job select",
+      "job_select"
+    ],
+    [
+      "level_progression",
+      "job limit",
+      "job_limit"
+    ],
+    [
+      "level_progression",
+      "Progreso",
+      "progress"
+    ],
+    [
+      "level_progression",
+      "max level",
+      "max_level"
+    ],
+    [
+      "level_progression",
+      "habilidad job active",
+      "skill_job_active"
+    ],
+    [
+      "level_progression",
+      "Recompensas",
+      "rewards"
+    ],
+    [
+      "level_progression",
+      "habilidad nivel",
+      "ability_level"
+    ],
+    [
+      "level_progression",
+      "Recompensas",
+      "rewards"
+    ],
+    [
+      "level_progression",
+      "habilidad nivel",
+      "ability_level"
+    ],
+    [
+      "level_progression",
+      "Recompensas",
+      "rewards"
+    ],
+    [
+      "level_progression",
+      "habilidad nivel",
+      "ability_level"
+    ],
+    [
+      "abilities",
+      "su nivel",
+      "your_level"
+    ],
+    [
+      "abilities",
+      "tu level maxed",
+      "your_level_maxed"
+    ],
+    [
+      "abilities",
+      "desbloqueado desc",
+      "unlocked_desc"
+    ],
+    [
+      "abilities",
+      "desbloqueado desc maxed",
+      "unlocked_desc_maxed"
+    ],
+    [
+      "abilities",
+      "su nivel",
+      "your_level"
+    ],
+    [
+      "abilities",
+      "tu level maxed",
+      "your_level_maxed"
+    ],
+    [
+      "abilities",
+      "desbloqueado desc",
+      "unlocked_desc"
+    ],
+    [
+      "abilities",
+      "desbloqueado desc maxed",
+      "unlocked_desc_maxed"
+    ]
+  ],
+  "existing_skill_settings_untouched": true,
+  "unrelated_pack_assets_identical": true,
+  "visual_verified": true,
+  "visual_confirmation": "User confirmed parchment, nine icons and progression alignment."
+}

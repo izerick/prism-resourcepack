@@ -8,7 +8,7 @@ Global resource pack for the IzeCraft Lobby and Survival servers.
 - Filter duplicate sprite registrations and add particle texture aliases to affected models in that overlay.
 - Preserve the effective assets of the previous pack for formats 22 through 96, including Minecraft 1.21.8.
 
-Current ZIP SHA-1: `1478c523c56baf1ed2ee760cba55120b78da9b6c`.
+Current ZIP SHA-1: `652b8570805715ac9b74b9f053f46422ca821677`.
 
 This pack is delivered globally by the network proxy. Backend resource-pack auto-dispatch is disabled so switching game modes can retain the already loaded pack.
 
@@ -51,3 +51,9 @@ The recovered sprites are registered explicitly in all four effective block atla
 
 Restore the BOOK/4 friends/requests control and BOOK/68 empty-list icon used by IzeFriends in Lobby and Survival. Their original small textures are registered in all four effective atlases; legacy and modern dispatches preserve the trade/AH fixes and Oraxen branches. The existing friends/confirmation backgrounds, native player heads, fonts, shaders and backend friendships remain unchanged. The ZIP grows by 1,642 bytes to 12,336,653 bytes. See source/friends-menu-compat-validation.json.
 
+
+## Survival AuraSkills parchment menus — 2026-10-27
+
+Restore the 12 original skill progression/navigation controls (BOOK/5–16) and nine skill icons (BONE/1–9), with clean canonical texture references, legacy/modern item dispatches and all four effective block atlases. Existing Oraxen, trade, auction, friends, shader, font and native head/body assets remain unchanged. The ZIP grows by 17,670 bytes to 12,354,323 bytes.
+
+Five Survival menus now use the original Prism parchment design with repaired component references, nine enabled skills in a 3×3 layout, and Spanish labels. Skill configuration, XP sources, rewards, levels and player data are retained. The user confirmed the main and progression menus align correctly. This does not activate Skyblock, dungeons or RPG equipment. See `source/skills-survival-validation.json`.
