@@ -8,7 +8,7 @@ Global resource pack for the IzeCraft Lobby and Survival servers.
 - Filter duplicate sprite registrations and add particle texture aliases to affected models in that overlay.
 - Preserve the effective assets of the previous pack for formats 22 through 96, including Minecraft 1.21.8.
 
-Current ZIP SHA-1: `94a96c2b5879b4698be26a2ed7b5dd15eb636acf`.
+Current ZIP SHA-1: `e711d7620ba1c0b3e549db1f707604e44af9f2e8`.
 
 This pack is delivered globally by the network proxy. Backend resource-pack auto-dispatch is disabled so switching game modes can retain the already loaded pack.
 
@@ -32,3 +32,8 @@ Restore the archived modules or rebuild the full pack before enabling Skyblock o
 The final cleanup also removes item definitions belonging to inactive ModelEngine assets and preserves the engine player-skin templates. Vanilla base models are used for archived item branches instead of stale texture aliases.
 
 The shared noteblock ore models are retained because Minecraft generates item-context wrappers from blockstates. The dependency checks include those blockstate references.
+
+
+## Ordinary player/NPC skin compatibility — 2026-10-27
+
+Disable the retired ItemsAdder emote UV remapper in the format-97 entity vertex shader. Ordinary player and NPC skins now keep native UVs regardless of batch vertex indices; native body-effect marker detection and the RGB animation fragment shader remain unchanged. All nonvertex assets and effective formats 22–96 are byte-identical. The 37 entity/armor/OIT/glint variants compile and link to Vulkan SPIR-V. See `source/skin-compat-26.3-validation.json`.

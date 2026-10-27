@@ -1,0 +1,35 @@
+{
+  "before_sha1": "94a96c2b5879b4698be26a2ed7b5dd15eb636acf",
+  "sha1": "e711d7620ba1c0b3e549db1f707604e44af9f2e8",
+  "bytes": 12278454,
+  "changed_files": [
+    "network_renderpearl_97/assets/minecraft/shaders/core/entity.vsh"
+  ],
+  "effective_format_changes": {
+    "22": [],
+    "32": [],
+    "35": [],
+    "42": [],
+    "46": [],
+    "55": [],
+    "56": [],
+    "63": [],
+    "64": [],
+    "69": [],
+    "75": [],
+    "84": [],
+    "88": [],
+    "96": [],
+    "97": [
+      "assets/minecraft/shaders/core/entity.vsh"
+    ],
+    "999": [
+      "assets/minecraft/shaders/core/entity.vsh"
+    ]
+  },
+  "all_nonvertex_assets_byte_identical": true,
+  "native_body_marker_detection_preserved": true,
+  "body_fragment_shader_byte_identical": true,
+  "old_unused_emote_uv_remapper_disabled_in_26_3": true,
+  "client_visual_verified": false
+}
