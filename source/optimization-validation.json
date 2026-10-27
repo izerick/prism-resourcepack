@@ -1,0 +1,121 @@
+{
+  "formats": {
+    "22": {
+      "effective_files": 4472,
+      "new_missing_dependencies": 0,
+      "retained_model_geometry_unchanged": true,
+      "shared_fonts_unchanged": true,
+      "retained_item_leaves_unchanged": true
+    },
+    "32": {
+      "effective_files": 4472,
+      "new_missing_dependencies": 0,
+      "retained_model_geometry_unchanged": true,
+      "shared_fonts_unchanged": true,
+      "retained_item_leaves_unchanged": true
+    },
+    "35": {
+      "effective_files": 4474,
+      "new_missing_dependencies": 0,
+      "retained_model_geometry_unchanged": true,
+      "shared_fonts_unchanged": true,
+      "retained_item_leaves_unchanged": true
+    },
+    "42": {
+      "effective_files": 4479,
+      "new_missing_dependencies": 0,
+      "retained_model_geometry_unchanged": true,
+      "shared_fonts_unchanged": true,
+      "retained_item_leaves_unchanged": true
+    },
+    "46": {
+      "effective_files": 4479,
+      "new_missing_dependencies": 0,
+      "retained_model_geometry_unchanged": true,
+      "shared_fonts_unchanged": true,
+      "retained_item_leaves_unchanged": true
+    },
+    "55": {
+      "effective_files": 4466,
+      "new_missing_dependencies": 0,
+      "retained_model_geometry_unchanged": true,
+      "shared_fonts_unchanged": true,
+      "retained_item_leaves_unchanged": true
+    },
+    "56": {
+      "effective_files": 4464,
+      "new_missing_dependencies": 0,
+      "retained_model_geometry_unchanged": true,
+      "shared_fonts_unchanged": true,
+      "retained_item_leaves_unchanged": true
+    },
+    "63": {
+      "effective_files": 4452,
+      "new_missing_dependencies": 0,
+      "retained_model_geometry_unchanged": true,
+      "shared_fonts_unchanged": true,
+      "retained_item_leaves_unchanged": true
+    },
+    "64": {
+      "effective_files": 4452,
+      "new_missing_dependencies": 0,
+      "retained_model_geometry_unchanged": true,
+      "shared_fonts_unchanged": true,
+      "retained_item_leaves_unchanged": true
+    },
+    "69": {
+      "effective_files": 4454,
+      "new_missing_dependencies": 0,
+      "retained_model_geometry_unchanged": true,
+      "shared_fonts_unchanged": true,
+      "retained_item_leaves_unchanged": true
+    },
+    "75": {
+      "effective_files": 4458,
+      "new_missing_dependencies": 0,
+      "retained_model_geometry_unchanged": true,
+      "shared_fonts_unchanged": true,
+      "retained_item_leaves_unchanged": true
+    },
+    "84": {
+      "effective_files": 4463,
+      "new_missing_dependencies": 0,
+      "retained_model_geometry_unchanged": true,
+      "shared_fonts_unchanged": true,
+      "retained_item_leaves_unchanged": true
+    },
+    "88": {
+      "effective_files": 4468,
+      "new_missing_dependencies": 0,
+      "retained_model_geometry_unchanged": true,
+      "shared_fonts_unchanged": true,
+      "retained_item_leaves_unchanged": true
+    },
+    "96": {
+      "effective_files": 4468,
+      "new_missing_dependencies": 0,
+      "retained_model_geometry_unchanged": true,
+      "shared_fonts_unchanged": true,
+      "retained_item_leaves_unchanged": true
+    },
+    "97": {
+      "effective_files": 4458,
+      "new_missing_dependencies": 0,
+      "retained_model_geometry_unchanged": true,
+      "shared_fonts_unchanged": true,
+      "retained_item_leaves_unchanged": true
+    },
+    "999": {
+      "effective_files": 4458,
+      "new_missing_dependencies": 0,
+      "retained_model_geometry_unchanged": true,
+      "shared_fonts_unchanged": true,
+      "retained_item_leaves_unchanged": true
+    }
+  },
+  "lossless_pngs_verified": 566,
+  "all_shader_bytes_preserved": true,
+  "native_26_3_skull_transforms_preserved": true,
+  "archive_integrity": true,
+  "client_visual_verified": false
+}
