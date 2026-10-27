@@ -1,112 +1,112 @@
 {
   "formats": {
     "22": {
-      "effective_files": 4472,
+      "effective_files": 3221,
       "new_missing_dependencies": 0,
       "retained_model_geometry_unchanged": true,
       "shared_fonts_unchanged": true,
       "retained_item_leaves_unchanged": true
     },
     "32": {
-      "effective_files": 4472,
+      "effective_files": 3221,
       "new_missing_dependencies": 0,
       "retained_model_geometry_unchanged": true,
       "shared_fonts_unchanged": true,
       "retained_item_leaves_unchanged": true
     },
     "35": {
-      "effective_files": 4474,
+      "effective_files": 3223,
       "new_missing_dependencies": 0,
       "retained_model_geometry_unchanged": true,
       "shared_fonts_unchanged": true,
       "retained_item_leaves_unchanged": true
     },
     "42": {
-      "effective_files": 4479,
+      "effective_files": 3228,
       "new_missing_dependencies": 0,
       "retained_model_geometry_unchanged": true,
       "shared_fonts_unchanged": true,
       "retained_item_leaves_unchanged": true
     },
     "46": {
-      "effective_files": 4479,
+      "effective_files": 3228,
       "new_missing_dependencies": 0,
       "retained_model_geometry_unchanged": true,
       "shared_fonts_unchanged": true,
       "retained_item_leaves_unchanged": true
     },
     "55": {
-      "effective_files": 4466,
+      "effective_files": 3215,
       "new_missing_dependencies": 0,
       "retained_model_geometry_unchanged": true,
       "shared_fonts_unchanged": true,
       "retained_item_leaves_unchanged": true
     },
     "56": {
-      "effective_files": 4464,
+      "effective_files": 3213,
       "new_missing_dependencies": 0,
       "retained_model_geometry_unchanged": true,
       "shared_fonts_unchanged": true,
       "retained_item_leaves_unchanged": true
     },
     "63": {
-      "effective_files": 4452,
+      "effective_files": 3201,
       "new_missing_dependencies": 0,
       "retained_model_geometry_unchanged": true,
       "shared_fonts_unchanged": true,
       "retained_item_leaves_unchanged": true
     },
     "64": {
-      "effective_files": 4452,
+      "effective_files": 3201,
       "new_missing_dependencies": 0,
       "retained_model_geometry_unchanged": true,
       "shared_fonts_unchanged": true,
       "retained_item_leaves_unchanged": true
     },
     "69": {
-      "effective_files": 4454,
+      "effective_files": 3203,
       "new_missing_dependencies": 0,
       "retained_model_geometry_unchanged": true,
       "shared_fonts_unchanged": true,
       "retained_item_leaves_unchanged": true
     },
     "75": {
-      "effective_files": 4458,
+      "effective_files": 3207,
       "new_missing_dependencies": 0,
       "retained_model_geometry_unchanged": true,
       "shared_fonts_unchanged": true,
       "retained_item_leaves_unchanged": true
     },
     "84": {
-      "effective_files": 4463,
+      "effective_files": 3212,
       "new_missing_dependencies": 0,
       "retained_model_geometry_unchanged": true,
       "shared_fonts_unchanged": true,
       "retained_item_leaves_unchanged": true
     },
     "88": {
-      "effective_files": 4468,
+      "effective_files": 3217,
       "new_missing_dependencies": 0,
       "retained_model_geometry_unchanged": true,
       "shared_fonts_unchanged": true,
       "retained_item_leaves_unchanged": true
     },
     "96": {
-      "effective_files": 4468,
+      "effective_files": 3217,
       "new_missing_dependencies": 0,
       "retained_model_geometry_unchanged": true,
       "shared_fonts_unchanged": true,
       "retained_item_leaves_unchanged": true
     },
     "97": {
-      "effective_files": 4458,
+      "effective_files": 3207,
       "new_missing_dependencies": 0,
       "retained_model_geometry_unchanged": true,
       "shared_fonts_unchanged": true,
       "retained_item_leaves_unchanged": true
     },
     "999": {
-      "effective_files": 4458,
+      "effective_files": 3207,
       "new_missing_dependencies": 0,
       "retained_model_geometry_unchanged": true,
       "shared_fonts_unchanged": true,

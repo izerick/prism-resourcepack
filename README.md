@@ -8,7 +8,7 @@ Global resource pack for the IzeCraft Lobby and Survival servers.
 - Filter duplicate sprite registrations and add particle texture aliases to affected models in that overlay.
 - Preserve the effective assets of the previous pack for formats 22 through 96, including Minecraft 1.21.8.
 
-Current ZIP SHA-1: `d353de7d70abe779fc6defdc510a9b3df3a5268d`.
+Current ZIP SHA-1: `0d60fe95dc361ad9aed6f6450ecace662f748c37`.
 
 This pack is delivered globally by the network proxy. Backend resource-pack auto-dispatch is disabled so switching game modes can retain the already loaded pack.
 
@@ -23,8 +23,10 @@ Apply the native Minecraft 26.3 skull transformation to special player-head item
 
 ## Lobby and Survival optimization — 2026-10-26
 
-The download ZIP is reduced from 34,782,795 to 12,577,352 bytes (63.8%). Resources belonging to paused modes are held in a separate recovery library. The four complete aura families, active ModelEngine internals, shared fonts/icons, Oraxen/HMCCosmetics assets, shaders and the native 26.3 menu-head fix are preserved. PNG recompression preserves every pixel and ancillary color/transparency chunk.
+The download ZIP is reduced from 34,782,795 to 12,278,602 bytes (64.7%). Resources belonging to paused modes are held in a separate recovery library. The four complete aura families, active ModelEngine internals, shared fonts/icons, Oraxen/HMCCosmetics assets, shaders and the native 26.3 menu-head fix are preserved. PNG recompression preserves every pixel and ancillary color/transparency chunk.
 
 All retained models and item branches were checked across formats 22–97 and the declared upper bound. No previously available dependency becomes missing. This is structural compatibility validation, not a gameplay benchmark on every client.
 
 Restore the archived modules or rebuild the full pack before enabling Skyblock or Prison. Reuse a specific module by merging its resources and carrier branches, then installing the matching backend blueprint and skills. The private recovery library and original full ZIP are saved locally and on the server; the repository history also contains the previous full pack.
+
+The final cleanup also removes item definitions belonging to inactive ModelEngine assets and preserves the engine player-skin templates. Vanilla base models are used for archived item branches instead of stale texture aliases.
