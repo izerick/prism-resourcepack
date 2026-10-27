@@ -8,7 +8,7 @@ Global resource pack for the IzeCraft Lobby and Survival servers.
 - Filter duplicate sprite registrations and add particle texture aliases to affected models in that overlay.
 - Preserve the effective assets of the previous pack for formats 22 through 96, including Minecraft 1.21.8.
 
-Current ZIP SHA-1: `5b6f9d0320f4e66b6a6b6561c18a952555c1cf15`.
+Current ZIP SHA-1: `1478c523c56baf1ed2ee760cba55120b78da9b6c`.
 
 This pack is delivered globally by the network proxy. Backend resource-pack auto-dispatch is disabled so switching game modes can retain the already loaded pack.
 
@@ -45,4 +45,9 @@ Trade and PlayerAuctions retained the Skyblock menu configuration, so their UI c
 The ZIP grows by 56,557 bytes to 12,335,011 bytes. Shaders, player-head transformations, font providers, world models and body effects remain byte-identical. No boss, world or paused-mode plugin is enabled. The backend menu update also removes the nonexistent `custom:avatar` item model, uses recovered confirmation icons, makes money/XP controls explicit and translates the main menu text. See `source/market-menu-compat-validation.json`. In-client menu confirmation remains separate from structural validation.
 
 The recovered sprites are registered explicitly in all four effective block atlases, including the format-97 override, so modern clients can resolve them when baking the GUI models.
+
+
+## Shared friends menu — 2026-10-27
+
+Restore the BOOK/4 friends/requests control and BOOK/68 empty-list icon used by IzeFriends in Lobby and Survival. Their original small textures are registered in all four effective atlases; legacy and modern dispatches preserve the trade/AH fixes and Oraxen branches. The existing friends/confirmation backgrounds, native player heads, fonts, shaders and backend friendships remain unchanged. The ZIP grows by 1,642 bytes to 12,336,653 bytes. See source/friends-menu-compat-validation.json.
 

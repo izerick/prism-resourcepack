@@ -1,0 +1,34 @@
+{
+  "before_sha1": "5b6f9d0320f4e66b6a6b6561c18a952555c1cf15",
+  "sha1": "1478c523c56baf1ed2ee760cba55120b78da9b6c",
+  "bytes": 12336653,
+  "added_bytes": 1642,
+  "changed_files": [
+    "assets/minecraft/atlases/blocks.json",
+    "assets/minecraft/items/book.json",
+    "assets/minecraft/models/item/book.json",
+    "network_format_22/assets/minecraft/items/book.json",
+    "network_format_32/assets/minecraft/items/book.json",
+    "network_format_35/assets/minecraft/items/book.json",
+    "network_format_42/assets/minecraft/items/book.json",
+    "network_format_56/assets/minecraft/items/book.json",
+    "network_format_75/assets/minecraft/atlases/blocks.json",
+    "network_format_84/assets/minecraft/atlases/blocks.json",
+    "network_renderpearl_97/assets/minecraft/atlases/blocks.json"
+  ],
+  "added_files": [
+    "assets/izerick/models/social/empty.json",
+    "assets/izerick/models/social/requests.json",
+    "assets/prism_skyblock/textures/interface/gui_textures/codex/undiscovered.png",
+    "assets/prism_skyblock/textures/interface/gui_textures/main_menu/button_friends.png"
+  ],
+  "all_effective_atlases_verified": [
+    "assets/minecraft/atlases/blocks.json",
+    "network_format_75/assets/minecraft/atlases/blocks.json",
+    "network_format_84/assets/minecraft/atlases/blocks.json",
+    "network_renderpearl_97/assets/minecraft/atlases/blocks.json"
+  ],
+  "other_models_fonts_heads_shaders_unchanged": true,
+  "trade_auction_controls_preserved": true,
+  "visual_verified": false
+}
