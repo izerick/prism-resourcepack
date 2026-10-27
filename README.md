@@ -8,7 +8,7 @@ Global resource pack for the IzeCraft Lobby and Survival servers.
 - Filter duplicate sprite registrations and add particle texture aliases to affected models in that overlay.
 - Preserve the effective assets of the previous pack for formats 22 through 96, including Minecraft 1.21.8.
 
-Current ZIP SHA-1: `55cae0a45618ef151f7efe9d461a394608e13025`.
+Current ZIP SHA-1: `2e9d00be309c9ca94c01a23a4450ddf1125ee527`.
 
 This pack is delivered globally by the network proxy. Backend resource-pack auto-dispatch is disabled so switching game modes can retain the already loaded pack.
 
@@ -64,3 +64,10 @@ Five Survival menus now use the original Prism parchment design with repaired co
 Restore the selected dungeon, forge, ancient-enchantment and ascension resources: 77 carrier/CMD assignments, four worn equipment families, three custom ore textures, both Draedon variants and the sounds used by the selected content. All four effective block atlases and the legacy/modern dispatches use canonical texture references. ModelEngine dispatches follow the actual Survival cache; recycled IDs 6 and 9 replace obsolete lightning bones absent from the current engine output. Existing aura definitions, cosmetics and unrelated carrier branches remain available.
 
 The global ZIP is 16,854,575 bytes, 4,500,252 bytes above the previous skills pack. Existing skin shaders, fonts, native skull transforms and body-effect resources are byte-identical. The server integration uses Survival skills and currency, with independent adventure progression and protected ore nodes. Skyblock and Prison remain paused. Automatic and native-client transaction checks passed; appearance in the owner's clients is tracked separately. See `source/adventures-survival-validation.json`.
+
+
+## Survival services and enchantment portraits — 2026-10-27
+
+Restore only PLAYER_HEAD/16 to its original 3x3 portrait display, with an exact cutoff at 17 in every legacy and modern dispatch. The native format-97 skull transformation stays intact. Ordinary heads, skin shaders, fonts, body effects and the other models remain unchanged. The three portraits were checked in Minecraft 26.3 and appear complete and centered. The global ZIP is 16,811,424 bytes.
+
+RPG services now use unused buildings in the existing Survival spawn, and the thirteen special ore nodes use the existing resource mine. The imported Skyblock city is archived and no longer loaded. Original NPCs, player progression and existing region rules are preserved. See `source/survival-service-head-validation.json`.

@@ -1,0 +1,33 @@
+{
+  "base_sha1": "55cae0a45618ef151f7efe9d461a394608e13025",
+  "sha1": "2e9d00be309c9ca94c01a23a4450ddf1125ee527",
+  "bytes": 16811424,
+  "changed": [
+    "assets/minecraft/items/player_head.json",
+    "assets/minecraft/models/item/player_head.json",
+    "network_format_22/assets/minecraft/models/item/player_head.json",
+    "network_format_32/assets/minecraft/models/item/player_head.json",
+    "network_format_35/assets/minecraft/models/item/player_head.json",
+    "network_format_42/assets/minecraft/models/item/player_head.json",
+    "network_format_46/assets/minecraft/items/player_head.json",
+    "network_format_55/assets/minecraft/items/player_head.json",
+    "network_format_56/assets/minecraft/items/player_head.json",
+    "network_format_69/assets/minecraft/items/player_head.json",
+    "network_format_75/assets/minecraft/items/player_head.json",
+    "network_format_84/assets/minecraft/items/player_head.json",
+    "network_format_88/assets/minecraft/items/player_head.json",
+    "network_hud_63/assets/minecraft/items/player_head.json",
+    "network_renderpearl_97/assets/minecraft/items/player_head.json"
+  ],
+  "added": [
+    "assets/izerick/models/ui/enchant_portrait_head.json"
+  ],
+  "only_portrait_cmd16_changed": true,
+  "ordinary_heads_preserved": true,
+  "shaders_unchanged": true,
+  "visual_verified_26_3": true,
+  "visual_checks": [
+    "Three CMD16 portraits complete and centered",
+    "Cobalt ore blue texture appears in existing resource mine"
+  ]
+}
