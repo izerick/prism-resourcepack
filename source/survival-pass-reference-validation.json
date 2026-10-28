@@ -1,19 +1,18 @@
 {
-  "base_sha1": "48fb89da24a224fb08772bba1b878fe0d9943666",
-  "sha1": "5dc8a0589f2bfe37d5e2151c46fc8f7b78de65b1",
-  "bytes": 20411489,
-  "added_bytes": 102850,
+  "base_sha1": "5dc8a0589f2bfe37d5e2151c46fc8f7b78de65b1",
+  "sha1": "ad2069a082825d73b2ef5714b79a9b6883321c46",
+  "bytes": 20416211,
+  "added_bytes": 4722,
   "changed": [
-    "assets/minecraft/atlases/blocks.json",
-    "assets/minecraft/items/feather.json",
-    "assets/minecraft/models/item/feather.json",
-    "network_format_75/assets/minecraft/atlases/blocks.json",
-    "network_format_84/assets/minecraft/atlases/blocks.json",
-    "network_renderpearl_97/assets/minecraft/atlases/blocks.json",
-    "assets/izerickextras/textures/source_ui/pass.png",
-    "assets/izerickextras/font/source_ui.json"
+    "assets/izerickextras/textures/source_ui/expeditions-2.png",
+    "assets/izerickextras/textures/source_ui/expeditions-3.png",
+    "assets/izerickextras/textures/source_ui/expeditions-4.png",
+    "assets/izerickextras/textures/source_ui/expeditions-5.png",
+    "assets/izerickextras/textures/source_ui/expeditions-6.png",
+    "assets/izerickextras/textures/source_ui/expeditions-7.png"
   ],
-  "old_head_font_shader_bytes_identical": false,
+  "old_head_font_shader_bytes_identical": true,
+  "skin_shader_native_head_bytes_identical": true,
   "existing_font_providers_preserved": true,
   "missing_references": [],
   "dispatch_resets_valid": true,
@@ -102,12 +101,12 @@
   "visual_verified": false,
   "independent_validation": true,
   "rewards_progress_inventory_source_unchanged": true,
-  "skin_shader_native_head_bytes_identical": true,
+  "dungeon_overlay_positions_verified": true,
   "native_menu_checks": 26,
   "reward_previews_checked": 140,
   "views_checked": 20,
   "extras_version": "1.0.2",
   "native_actual_client_claims": true,
   "progress_and_rewards_unchanged": true,
-  "visual_review": "Awaiting owner review against the supplied screenshots"
+  "visual_review": "Awaiting owner review against supplied screenshots"
 }
