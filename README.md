@@ -87,3 +87,9 @@ Restore the selected original adventure-pass, profession portrait/progress and e
 Survival now validates a key for every expedition participant before readiness and consumes one only at actual dungeon start. Native locksmith recipes provide the three keys; the original Laboratory access stays separate. Mapped exploration chests reveal five common rewards and one rare reward sequentially, with independent persistent claims per player. Closing/reopening does not reroll rewards; full inventory retains unclaimed loot and collected items survive leaving. `/spawn` and the expedition menu use the native dungeon exit. Existing progression, recipe entries and SQLite data remain in place.
 
 26 native checks and two actual-client inventory checks passed in the isolated server. Visual alignment in the owner's client remains pending. See `source/survival-fidelity-validation.json`.
+
+## Native pixel lettering restored — 2026-10-27
+
+The owner reported blurred lettering in the new Guild interfaces. Replace system-font raster text with the existing accepted pixel alphabet from the earlier Survival UI correction. Six source panels, 210 pass-number textures and seven independent menu headers now draw solid pixels directly at their final size. Existing artwork translucency is preserved. All 223 texture dimensions remain unchanged; every other ZIP entry, including shaders, font definitions, models, controls and native heads, is byte-identical.
+
+The global ZIP is 20,308,639 bytes, 60,238 bytes smaller than the previous release, SHA1 `48fb89da24a224fb08772bba1b878fe0d9943666`. No backend restart or gameplay/data changes. The file checks and enlarged pixel previews passed; native-client visual confirmation remains pending. See `source/survival-crisp-text-validation.json`.
