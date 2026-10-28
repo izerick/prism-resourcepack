@@ -71,3 +71,10 @@ The global ZIP is 16,854,575 bytes, 4,500,252 bytes above the previous skills pa
 Restore only PLAYER_HEAD/16 to its original 3x3 portrait display, with an exact cutoff at 17 in every legacy and modern dispatch. The native format-97 skull transformation stays intact. Ordinary heads, skin shaders, fonts, body effects and the other models remain unchanged. The three portraits were checked in Minecraft 26.3 and appear complete and centered. The global ZIP is 16,811,424 bytes.
 
 RPG services now use unused buildings in the existing Survival spawn, and the thirteen special ore nodes use the existing resource mine. The imported Skyblock city is archived and no longer loaded. Original NPCs, player progression and existing region rules are preserved. See `source/survival-service-head-validation.json`.
+
+
+## Survival Guild extras — 2026-10-27
+
+Add selective backpack icons and worn models, thirty stored-tool models, thirteen sound aliases, seven independent Spanish UI backgrounds and the three expedition bosses. New models use reserved IDs and a separate namespace; existing skin shaders, font providers and player-head files stay byte-identical. All effective dispatch branches have reset boundaries and all four atlases include the new sprites. 103 models and their references were validated.
+
+The global ZIP is 20,148,125 bytes (+3,336,701), SHA1 `23b0a005f8e460f331f895e2f63360ce25eb9157`. It remains one global pack without forced downloads between backends. The Survival integration adds a 70-level pass, permanent profession reputation, backpacks, capped wilderness encounters and three routes within one additional native dungeon template. 29 inventory/reputation/encounter checks and 48 route/group/finish checks passed in the isolated native server. Production model IDs match all 64 new bones. Visual confirmation is pending because Computer Use was stopped by Escape. See `source/survival-extras-validation.json`.

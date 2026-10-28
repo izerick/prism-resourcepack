@@ -1,0 +1,16 @@
+{
+  "sha1": "23b0a005f8e460f331f895e2f63360ce25eb9157",
+  "models_checked": 103,
+  "missing_references": [],
+  "dispatch_resets_valid": true,
+  "json_files_valid": true,
+  "preserved_old_skin_assets": true,
+  "bytes": 20148125,
+  "added_bytes": 3336701,
+  "native_storage_checks": 29,
+  "native_dungeon_checks": 48,
+  "production_model_bones": 64,
+  "production_model_ids_match": true,
+  "visual_verified": false,
+  "visual_review": "Computer Use stopped by Escape; awaiting in-game confirmation"
+}
