@@ -120,3 +120,10 @@ The global ZIP is 20,430,008 bytes (+13,797), SHA1 `f93e75817675ae173df5fa52fcdb
 Restore the original thirdperson_lefthand transform in the thirty selected AdventureApparel tool models. The earlier fixed transform is retained for backward compatibility. All other ZIP entries, including shaders, fonts, sprites, skins, skull transforms, item dispatches and sounds, remain byte-identical. The ZIP is 20,431,158 bytes (+1,150), SHA1 `0d6687fc3ee7fae61eedcc7a86688fc48efc468b`.
 
 The server visual renderer equips the original FEATHER model on an invisible marker holder and attaches it only in client packets. Native server passengers remain untouched, so teleports work without a command whitelist. Thirty-nine native checks and fourteen two-client packet checks validate real-item preservation, the original offhand model, held-item hiding, observer reconnect, native teleports, real-passenger merging, backpack coexistence and cleanup. The corrected 70+70 pass and all gameplay data/configurations remain unchanged. In-client appearance awaits owner review. See `source/survival-original-apparel-validation.json`.
+
+
+## Vanilla held-tool posture — 2026-10-28
+
+Restore the vanilla handheld parent for the ordinary diamond sword, netherite tools and wooden hoe across the root and four legacy model overlays (35 declarations). Both installed official 1.21.8 and 26.3 client models confirm the parent. Textures and custom-model overrides remain identical. All other ZIP entries, including the thirty separate stored-tool models, are byte-identical to the previous release.
+
+The global ZIP is 20,431,148 bytes (-10), SHA1 `65f8594c5dcf114a15b35055f544a1a07d961429`. All fourteen effective release families were checked. The public download matches the built archive, ForcePack retains one global pack, and the held diamond sword was visually verified in the owner's Minecraft 26.3 client after reloading. The previously confirmed waist placement and server gameplay/data remain unchanged. See `source/survival-held-tools-validation.json`.

@@ -1,0 +1,134 @@
+{
+  "base_sha1": "0d6687fc3ee7fae61eedcc7a86688fc48efc468b",
+  "sha1": "65f8594c5dcf114a15b35055f544a1a07d961429",
+  "bytes": 20431148,
+  "added_bytes": -10,
+  "changed": [
+    "assets/minecraft/models/item/diamond_sword.json",
+    "assets/minecraft/models/item/netherite_axe.json",
+    "assets/minecraft/models/item/netherite_hoe.json",
+    "assets/minecraft/models/item/netherite_pickaxe.json",
+    "assets/minecraft/models/item/netherite_shovel.json",
+    "assets/minecraft/models/item/netherite_sword.json",
+    "assets/minecraft/models/item/wooden_hoe.json",
+    "network_format_22/assets/minecraft/models/item/diamond_sword.json",
+    "network_format_22/assets/minecraft/models/item/netherite_axe.json",
+    "network_format_22/assets/minecraft/models/item/netherite_hoe.json",
+    "network_format_22/assets/minecraft/models/item/netherite_pickaxe.json",
+    "network_format_22/assets/minecraft/models/item/netherite_shovel.json",
+    "network_format_22/assets/minecraft/models/item/netherite_sword.json",
+    "network_format_22/assets/minecraft/models/item/wooden_hoe.json",
+    "network_format_32/assets/minecraft/models/item/diamond_sword.json",
+    "network_format_32/assets/minecraft/models/item/netherite_axe.json",
+    "network_format_32/assets/minecraft/models/item/netherite_hoe.json",
+    "network_format_32/assets/minecraft/models/item/netherite_pickaxe.json",
+    "network_format_32/assets/minecraft/models/item/netherite_shovel.json",
+    "network_format_32/assets/minecraft/models/item/netherite_sword.json",
+    "network_format_32/assets/minecraft/models/item/wooden_hoe.json",
+    "network_format_35/assets/minecraft/models/item/diamond_sword.json",
+    "network_format_35/assets/minecraft/models/item/netherite_axe.json",
+    "network_format_35/assets/minecraft/models/item/netherite_hoe.json",
+    "network_format_35/assets/minecraft/models/item/netherite_pickaxe.json",
+    "network_format_35/assets/minecraft/models/item/netherite_shovel.json",
+    "network_format_35/assets/minecraft/models/item/netherite_sword.json",
+    "network_format_35/assets/minecraft/models/item/wooden_hoe.json",
+    "network_format_42/assets/minecraft/models/item/diamond_sword.json",
+    "network_format_42/assets/minecraft/models/item/netherite_axe.json",
+    "network_format_42/assets/minecraft/models/item/netherite_hoe.json",
+    "network_format_42/assets/minecraft/models/item/netherite_pickaxe.json",
+    "network_format_42/assets/minecraft/models/item/netherite_shovel.json",
+    "network_format_42/assets/minecraft/models/item/netherite_sword.json",
+    "network_format_42/assets/minecraft/models/item/wooden_hoe.json"
+  ],
+  "materials": [
+    "diamond_sword",
+    "netherite_axe",
+    "netherite_hoe",
+    "netherite_pickaxe",
+    "netherite_shovel",
+    "netherite_sword",
+    "wooden_hoe"
+  ],
+  "official_client_models_verified": [
+    "1.21.8",
+    "26.3"
+  ],
+  "coverage": [
+    {
+      "version": "1.20.4",
+      "format": 22,
+      "seven_vanilla_holds_correct": true
+    },
+    {
+      "version": "1.20.6",
+      "format": 32,
+      "seven_vanilla_holds_correct": true
+    },
+    {
+      "version": "1.21",
+      "format": 34,
+      "seven_vanilla_holds_correct": true
+    },
+    {
+      "version": "1.21.2",
+      "format": 42,
+      "seven_vanilla_holds_correct": true
+    },
+    {
+      "version": "1.21.4",
+      "format": 46,
+      "seven_vanilla_holds_correct": true
+    },
+    {
+      "version": "1.21.5",
+      "format": 55,
+      "seven_vanilla_holds_correct": true
+    },
+    {
+      "version": "1.21.6",
+      "format": 63,
+      "seven_vanilla_holds_correct": true
+    },
+    {
+      "version": "1.21.8",
+      "format": 64,
+      "seven_vanilla_holds_correct": true
+    },
+    {
+      "version": "1.21.9",
+      "format": 69,
+      "seven_vanilla_holds_correct": true
+    },
+    {
+      "version": "1.21.10",
+      "format": 69,
+      "seven_vanilla_holds_correct": true
+    },
+    {
+      "version": "1.21.11",
+      "format": 75,
+      "seven_vanilla_holds_correct": true
+    },
+    {
+      "version": "26.1",
+      "format": 84,
+      "seven_vanilla_holds_correct": true
+    },
+    {
+      "version": "26.2",
+      "format": 88,
+      "seven_vanilla_holds_correct": true
+    },
+    {
+      "version": "26.3",
+      "format": 97,
+      "seven_vanilla_holds_correct": true
+    }
+  ],
+  "only_parent_changed": true,
+  "all_other_assets_byte_identical": true,
+  "waist_models_preserved": true,
+  "item_dispatches_preserved": true,
+  "visual_verified": true,
+  "visual_observation": "Minecraft 26.3, owner online in Survival, F5 front view: ordinary diamond sword is held by its grip in the normal handheld pose after global pack reload. No desktop input or inventory changes performed."
+}
