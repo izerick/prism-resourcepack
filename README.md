@@ -8,7 +8,7 @@ Global resource pack for the IzeCraft Lobby and Survival servers.
 - Filter duplicate sprite registrations and add particle texture aliases to affected models in that overlay.
 - Preserve the effective assets of the previous pack for formats 22 through 96, including Minecraft 1.21.8.
 
-Current ZIP SHA-1: `f93e75817675ae173df5fa52fcdb05ffee522691`.
+Current ZIP SHA-1: `0d6687fc3ee7fae61eedcc7a86688fc48efc468b`.
 
 This pack is delivered globally by the network proxy. Backend resource-pack auto-dispatch is disabled so switching game modes can retain the already loaded pack.
 
@@ -113,3 +113,10 @@ Add seven exclusive milestones for the Alba season: two new animated text styles
 Add seven native pixel badges and three compact collection panels in an independent namespace. Extend only the text shader marker range with effects 25 and 26. All existing text-effect branches were checked by reversing the precise insertion; entity, skin and player-head assets remain byte-identical. The old default-font providers retain their order after the seven new bitmap glyphs. All paper dispatch branches restore the prior model at CMD 922008.
 
 The global ZIP is 20,430,008 bytes (+13,797), SHA1 `f93e75817675ae173df5fa52fcdb05ffee522691`. Forty pipelines across fourteen release families compile, including 1.21.8 and 26.3. Forty-six isolated native checks cover locked previews, seasonal entitlements, inventory-safe delivery, selection, recovery and no extra ranks or gameplay currency. Another 41,773 render checks preserve existing styles and reject untrusted metadata. In-client visual confirmation remains pending. See `source/survival-premium-alba-validation.json`.
+
+
+## Original stored-tool placement — 2026-10-28
+
+Restore the original thirdperson_lefthand transform in the thirty selected AdventureApparel tool models. The earlier fixed transform is retained for backward compatibility. All other ZIP entries, including shaders, fonts, sprites, skins, skull transforms, item dispatches and sounds, remain byte-identical. The ZIP is 20,431,158 bytes (+1,150), SHA1 `0d6687fc3ee7fae61eedcc7a86688fc48efc468b`.
+
+The server visual renderer equips the original FEATHER model on an invisible marker holder and attaches it only in client packets. Native server passengers remain untouched, so teleports work without a command whitelist. Thirty-nine native checks and fourteen two-client packet checks validate real-item preservation, the original offhand model, held-item hiding, observer reconnect, native teleports, real-passenger merging, backpack coexistence and cleanup. The corrected 70+70 pass and all gameplay data/configurations remain unchanged. In-client appearance awaits owner review. See `source/survival-original-apparel-validation.json`.

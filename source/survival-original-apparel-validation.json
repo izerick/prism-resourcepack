@@ -1,0 +1,646 @@
+{
+  "base_sha1": "f93e75817675ae173df5fa52fcdb05ffee522691",
+  "sha1": "0d6687fc3ee7fae61eedcc7a86688fc48efc468b",
+  "bytes": 20431158,
+  "added_bytes": 1150,
+  "changed_models": [
+    {
+      "source_cmd": 1,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/wooden_sword.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 2,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/stone_sword.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 3,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/iron_sword.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 4,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/golden_sword.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 5,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/diamond_sword.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 6,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/netherite_sword.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 21,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/wooden_axe.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 22,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/stone_axe.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 23,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/iron_axe.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 24,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/golden_axe.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 25,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/diamond_axe.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 26,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/netherite_axe.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 41,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/wooden_pickaxe.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 42,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/stone_pickaxe.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 43,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/iron_pickaxe.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 44,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/golden_pickaxe.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 45,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/diamond_pickaxe.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 46,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/netherite_pickaxe.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 61,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/wooden_shovel.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 62,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/stone_shovel.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 63,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/iron_shovel.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 64,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/golden_shovel.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 65,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/diamond_shovel.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 66,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/netherite_shovel.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 81,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/wooden_hoe.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 82,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/stone_hoe.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 83,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/iron_hoe.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 84,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/golden_hoe.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 85,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/diamond_hoe.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "source_cmd": 86,
+      "model": "assets/izerickextras/models/ua/minecraft/custom/backtools/netherite_hoe.json",
+      "original_offhand_transform": {
+        "rotation": [
+          170,
+          90,
+          0
+        ],
+        "translation": [
+          -8,
+          -9,
+          -30
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    }
+  ],
+  "only_30_offhand_transforms_changed": true,
+  "existing_fixed_transform_preserved": true,
+  "all_other_pack_assets_byte_identical": true,
+  "visual_verified": false,
+  "native_checks_passed": 39,
+  "client_packet_checks_passed": 14,
+  "pass_rewards_progress_inventory_source_unchanged": true,
+  "extras_sha256": "2468025c47b3885ce60b36c454bde47ea30433855dd091297fff62d07cb500c1"
+}
