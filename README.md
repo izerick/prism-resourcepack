@@ -93,3 +93,12 @@ Survival now validates a key for every expedition participant before readiness a
 The owner reported blurred lettering in the new Guild interfaces. Replace system-font raster text with the existing accepted pixel alphabet from the earlier Survival UI correction. Six source panels, 210 pass-number textures and seven independent menu headers now draw solid pixels directly at their final size. Existing artwork translucency is preserved. All 223 texture dimensions remain unchanged; every other ZIP entry, including shaders, font definitions, models, controls and native heads, is byte-identical.
 
 The global ZIP is 20,308,639 bytes, 60,238 bytes smaller than the previous release, SHA1 `48fb89da24a224fb08772bba1b878fe0d9943666`. No backend restart or gameplay/data changes. The file checks and enlarged pixel previews passed; native-client visual confirmation remains pending. See `source/survival-crisp-text-validation.json`.
+
+
+## Adventure Pass reference layout — 2026-10-28
+
+Restore the supplied reference composition: seven actual reward previews in the upper strip, seven claim-state buttons immediately below, and the gold footer. Remove the added number row and purple reward row. The footer switches the Free/Plus preview without granting access or charging currency; the original grants, 70-level progression, existing claims and player data remain unchanged. Locked, claimable, queued and claimed rewards display their real state, including the actual Plus quantities.
+
+Guild menus now display the original translated level-number model and visible states at all nine milestones. Only the existing level-10/25/45 prizes remain claimable; informational milestones do not promise new rewards. Dungeon cards use the original colored overlays when the player's existing skill-power requirement is met. Source artwork, small pixel lettering, native skin shaders and head transforms are retained. The existing source-UI font gains nine providers; all previous providers remain identical.
+
+The global ZIP is 20,411,489 bytes (+102,850), SHA1 `5dc8a0589f2bfe37d5e2151c46fc8f7b78de65b1`. The independent branch/font validation and 26 native tests passed, including 140 previews across 20 views and actual-client free/Plus claims without duplicates. Native-client appearance remains pending. The separate seven-day rewards feature was explicitly excluded from this change. See `source/survival-pass-reference-validation.json`.
