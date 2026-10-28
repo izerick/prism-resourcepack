@@ -78,3 +78,12 @@ RPG services now use unused buildings in the existing Survival spawn, and the th
 Add selective backpack icons and worn models, thirty stored-tool models, thirteen sound aliases, seven independent Spanish UI backgrounds and the three expedition bosses. New models use reserved IDs and a separate namespace; existing skin shaders, font providers and player-head files stay byte-identical. All effective dispatch branches have reset boundaries and all four atlases include the new sprites. 103 models and their references were validated.
 
 The global ZIP is 20,148,125 bytes (+3,336,701), SHA1 `23b0a005f8e460f331f895e2f63360ce25eb9157`. It remains one global pack without forced downloads between backends. The Survival integration adds a 70-level pass, permanent profession reputation, backpacks, capped wilderness encounters and three routes within one additional native dungeon template. 29 inventory/reputation/encounter checks and 48 route/group/finish checks passed in the isolated native server. Production model IDs match all 64 new bones. Visual confirmation is pending because Computer Use was stopped by Escape. See `source/survival-extras-validation.json`.
+
+
+## Original Guild interfaces and expedition access — 2026-10-27
+
+Restore the selected original adventure-pass, profession portrait/progress and expedition-selection artwork with Spanish labels. Source UI and keys use a separate namespace and reserved FEATHER models. The global ZIP is 20,368,877 bytes (+220,752), SHA1 `b1f4291551ea8b07ddf93d48e67ac629a4f212d5`. All source references and legacy/modern model cutoffs were independently validated. Existing native heads, skin shaders, old font providers and unrelated assets remain byte-identical.
+
+Survival now validates a key for every expedition participant before readiness and consumes one only at actual dungeon start. Native locksmith recipes provide the three keys; the original Laboratory access stays separate. Mapped exploration chests reveal five common rewards and one rare reward sequentially, with independent persistent claims per player. Closing/reopening does not reroll rewards; full inventory retains unclaimed loot and collected items survive leaving. `/spawn` and the expedition menu use the native dungeon exit. Existing progression, recipe entries and SQLite data remain in place.
+
+26 native checks and two actual-client inventory checks passed in the isolated server. Visual alignment in the owner's client remains pending. See `source/survival-fidelity-validation.json`.
