@@ -8,7 +8,7 @@ Global resource pack for the IzeCraft Lobby and Survival servers.
 - Filter duplicate sprite registrations and add particle texture aliases to affected models in that overlay.
 - Preserve the effective assets of the previous pack for formats 22 through 96, including Minecraft 1.21.8.
 
-Current ZIP SHA-1: `2e9d00be309c9ca94c01a23a4450ddf1125ee527`.
+Current ZIP SHA-1: `f93e75817675ae173df5fa52fcdb05ffee522691`.
 
 This pack is delivered globally by the network proxy. Backend resource-pack auto-dispatch is disabled so switching game modes can retain the already loaded pack.
 
@@ -104,3 +104,12 @@ Guild menus now display the original translated level-number model and visible s
 The global ZIP is 20,416,211 bytes (+107,572 from the preceding crisp-text release), SHA1 `ad2069a082825d73b2ef5714b79a9b6883321c46`. The independent branch/font validation and 26 native tests passed, including 140 previews across 20 views and actual-client free/Plus claims without duplicates. Native-client appearance remains pending. The separate seven-day rewards feature was explicitly excluded from this change. See `source/survival-pass-reference-validation.json`.
 
 The final dungeon artwork check corrected the source overlay offsets to 0/55/110 pixels. Six affected availability variants changed by 4,722 bytes; all other ZIP entries are identical to the first reference-layout release. Each overlay was verified to stay within its own card.
+
+
+## Small seasonal Plus collection — 2026-10-28
+
+Add seven exclusive milestones for the Alba season: two new animated text styles, three titles and two collectible badges. The Plus preview shows these seven goals at levels 10–70 on one page. The seventy free levels and their existing rewards remain available. Existing auras, body effects and text-style collections are not bundled into the pass. Earned cosmetics remain selectable; future seasons require their own access and immutable reward identifiers.
+
+Add seven native pixel badges and three compact collection panels in an independent namespace. Extend only the text shader marker range with effects 25 and 26. All existing text-effect branches were checked by reversing the precise insertion; entity, skin and player-head assets remain byte-identical. The old default-font providers retain their order after the seven new bitmap glyphs. All paper dispatch branches restore the prior model at CMD 922008.
+
+The global ZIP is 20,430,008 bytes (+13,797), SHA1 `f93e75817675ae173df5fa52fcdb05ffee522691`. Forty pipelines across fourteen release families compile, including 1.21.8 and 26.3. Forty-six isolated native checks cover locked previews, seasonal entitlements, inventory-safe delivery, selection, recovery and no extra ranks or gameplay currency. Another 41,773 render checks preserve existing styles and reject untrusted metadata. In-client visual confirmation remains pending. See `source/survival-premium-alba-validation.json`.
